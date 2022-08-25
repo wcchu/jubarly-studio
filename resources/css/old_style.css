@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 30px 20px 20px 20px;
+    color: black;
+    text-align: center;
+    border-bottom: 3px solid orange;
+    margin-top: 60px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px;
+    font-style: italic;
+    color: rgb(27, 110, 158);
+    text-align: center;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 25px;
+    color: red;
+    padding: 5px;
+    text-align: left;
+}
+
+h4 {
+    /* h4 is used for text in item boxes in the homepage */
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    line-height: 150%;
+    background-color: lightblue;
+    margin: 10px 40px 10px 40px;
+    padding: 15px;
+}
+
+h4 a {
+    color: gray;
+}
+
+p,
+ol,
+ul {
+    text-align: justify;
+    line-height: 135%;
+    margin: 10px;
+}
+
+ol,
+ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+address {
+    text-align: center;
+    line-height: 150%;
+    margin: 50px;
+}
+
+.topbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: orange;
+}
+
+.topbar p {
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    margin-top: 20px;
+    line-height: 100%;
+}
+
+.topbar a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.main {
+    float: left;
+    width: 100%;
+}
+
+.portrait {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.portrait img {
+    float: left;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.portrait p {
+    padding: 40px 0 0 180px;
+}
+
+.content-box {
+    /* longer texts such as package descriptions */
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front-page {
+    background-image: url(images/cover.jpg);
+    background-size: 100% auto;
+    background-color: orange;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    height: 1250px;
+}
+
+.front-page h1 {
+    padding: 130px 0 20px 100px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    border-bottom: 5px solid orange;
+}
+
+.front-page h2 {
+    padding: 0 0 700px 250px;
+    color: orange;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: left;
+    line-height: 150%;
+}
+
+.front-page p {
+    color: white;
+    padding: 20px 0 0 200px;
+}
+
+.intro-box {
+    margin: 130px;
+}
+
+.narrow {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-box h1 {
+    border-bottom: none;
+    margin-top: 0;
+}
+
+.intro-box table,
+.intro-box th,
+.intro-box td {
+    table-layout: fixed;
+    border: none;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+ion-icon {
+    font-size: 120px;
+    padding: 10px;
+    color: rgb(27, 110, 158);
+}
