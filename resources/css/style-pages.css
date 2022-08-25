@@ -34,9 +34,10 @@ h3 {
 }
 
 .member img {
-    float: left;
+    float: none;
     height: 180px;
-    border-radius: 90px;
+    width: 180px;
+    border: 90px;
 }
 
 .member p {
