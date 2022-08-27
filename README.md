@@ -1,3 +1,3 @@
 # Jubarly Studio
 
-[Enter website](jubarlystudio.com/home.html)
+Enter website https://jubarlystudio.com/home.html
