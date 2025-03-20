@@ -54,3 +54,14 @@ h3 {
 .content p {
     text-align: justify;
 }
+
+table {
+    color: darkcyan;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table ion-icon {
+    font-size: 120px;
+    padding: 10px;
+}
